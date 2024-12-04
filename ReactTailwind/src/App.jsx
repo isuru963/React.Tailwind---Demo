@@ -100,12 +100,12 @@ const App = () => {
           <div className="bg-white rounded-lg shadow-lg w-96 p-6 relative">
             <h3 className="text-lg font-semibold text-gray-700 mb-4">Chat for {currentCv}</h3>
             <button
-              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
+              className="absolute top-4 right-4 text-red-600 hover:text-red-700"
               onClick={closeChat}
             >
               ✖
             </button>
-            <div className="chat-messages overflow-y-auto h-48 mb-4 border p-3 rounded-lg bg-gray-50">
+            <div className="chat-messages overflow-y-auto h-48 mb-4 border p-3 rounded-lg bg-gray-50" color="red">
               {messages.map((msg, index) => (
                 <div
                   key={index}
