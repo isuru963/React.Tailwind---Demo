@@ -100,7 +100,7 @@ const App = () => {
           <div className="bg-white rounded-lg shadow-lg w-96 p-6 relative">
             <h3 className="text-lg font-semibold text-gray-700 mb-4">Chat for {currentCv}</h3>
             <button
-              className="absolute top-4 right-4 text-red-600 hover:text-red-700"
+              className="absolute top-1 right-1 bg-red-600"
               onClick={closeChat}
             >
               ✖
