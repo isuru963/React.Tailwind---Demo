@@ -8,6 +8,8 @@ const App = () => {
         <p className="text-gray-700 mt-2">Welcome to your simple React app.</p>
       </div>
     </div>
+  <div className="searc bar position = "center" bg-gray-100:>
+    </div>
   );
 };
 
