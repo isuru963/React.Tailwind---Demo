@@ -2,7 +2,7 @@ import csv
 import logging
 from datetime import datetime
 
-# Setup logging
+
 logging.basicConfig(filename='student_system.log', level=logging.INFO, 
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
