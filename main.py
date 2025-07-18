@@ -13,9 +13,6 @@ class Student:
         self.age = age
         self.grade = grade
 
-   
-
-
 class StudentManager:
     def __init__(self, filename='students.csv'):
         self.filename = filename
