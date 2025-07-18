@@ -13,8 +13,7 @@ class Student:
         self.age = age
         self.grade = grade
 
-    def __repr__(self):
-        return f"Student({self.student_id}, {self.name}, {self.age}, {self.grade})"
+   
 
 
 class StudentManager:
